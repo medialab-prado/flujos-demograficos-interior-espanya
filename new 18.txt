@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+<style>
+
+.arc text {
+  font: 10px sans-serif;
+  text-anchor: middle;
+}
+
+.arc path {
+  stroke: #fff;
+}
+
+</style>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+  <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css" />
+    <!-- include cartodb.js library -->
+    <script src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+</head>
+<body>
+
+<script>
+
+var width = 200,
+    height = 200,
+    radius = Math.min(width, height) / 2;
+
+var color = d3.scale.ordinal()
+    .range(["#7fc97f", "#beaed4", "#fdc086"]);
+
+var arc = d3.svg.arc()
+    .outerRadius(radius - 10)
+    .innerRadius(0);
+
+var labelArc = d3.svg.arc()
+    .outerRadius(radius - 50)
+    .innerRadius(radius - 50);
+
+var pie = d3.layout.pie()
+    .sort(null)
+    .value(function(d) { return d.frequency; });
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height)
+  .append("g")
+    .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+d3.csv("https://oboix.cartodb.com/api/v2/sql?q=WITH a as ( SELECT DISTINCT adm0_a3 as name, 
+count(*) OVER (PARTITION BY adm0_a3) as frequency , count(*) OVER() as total_frequency FROM populated_places_spf )
+ SELECT *, round((frequency::numeric/total_frequency::numeric),2::integer) as relative_frequency FROM a&format=csv",  function(data) {
+
+  var g = svg.selectAll(".arc")
+      .data(pie(data))
+    .enter().append("g")
+      .attr("class", "arc");
+
+  g.append("path")
+      .attr("d", arc)
+      .style("fill", function(d) { return color(d.data.name); });
+
+  g.append("text")
+      .attr("transform", function(d) { return "translate(" + labelArc.centroid(d) + ")"; })
+      .attr("dy", ".35em")
+      .text(function(d) { return d.data.name; });
+});
+
+
+
+</script>
+</body>
+</html>

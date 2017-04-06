@@ -1,0 +1,440 @@
+{
+"links":[
+ {
+   "source": "Álava/Araba",
+   "target": "Málaga2",
+   "value": 148
+ },
+ {
+   "source": "Albacete",
+   "target": "Málaga2",
+   "value": 395
+ },
+ {
+   "source": "Alicante/Alacant",
+   "target": "Málaga2",
+   "value": 568
+ },
+ {
+   "source": "Almería",
+   "target": "Málaga2",
+   "value": 1587
+ },
+ {
+   "source": "Ávila",
+   "target": "Málaga2",
+   "value": 412
+ },
+ {
+   "source": "Badajoz",
+   "target": "Málaga2",
+   "value": 1834
+ },
+ {
+   "source": "Islas Baleares/Illes Balears",
+   "target": "Málaga2",
+   "value": 150
+ },
+ {
+   "source": "Barcelona",
+   "target": "Málaga2",
+   "value": 1324
+ },
+ {
+   "source": "Burgos",
+   "target": "Málaga2",
+   "value": 727
+ },
+ {
+   "source": "Cáceres",
+   "target": "Málaga2",
+   "value": 1079
+ },
+ {
+   "source": "Cádiz",
+   "target": "Málaga2",
+   "value": 10004
+ },
+ {
+   "source": "Castellón/Castelló",
+   "target": "Málaga2",
+   "value": 111
+ },
+ {
+   "source": "Ciudad Real",
+   "target": "Málaga2",
+   "value": 1.39
+ },
+ {
+   "source": "Córdoba",
+   "target": "Málaga2",
+   "value": 8878
+ },
+ {
+   "source": "La Coruña",
+   "target": "Málaga2",
+   "value": 892
+ },
+ {
+   "source": "Cuenca",
+   "target": "Málaga2",
+   "value": 355
+ },
+ {
+   "source": "Girona",
+   "target": "Málaga2",
+   "value": 149
+ },
+ {
+   "source": "Granada",
+   "target": "Málaga2",
+   "value": 8869
+ },
+ {
+   "source": "Guadalajara",
+   "target": "Málaga2",
+   "value": 259
+ },
+ {
+   "source": "Gipuzkoa",
+   "target": "Málaga2",
+   "value": 435
+ },
+ {
+   "source": "Huelva",
+   "target": "Málaga2",
+   "value": 989
+ },
+ {
+   "source": "Huesca",
+   "target": "Málaga2",
+   "value": 182
+ },
+ {
+   "source": "Jaén",
+   "target": "Málaga2",
+   "value": 5233
+ },
+ {
+   "source": "León",
+   "target": "Málaga2",
+   "value": 1013
+ },
+ {
+   "source": "Lérida-Lleida",
+   "target": "Málaga2",
+   "value": 189
+ },
+ {
+   "source": "La Rioja",
+   "target": "Málaga2",
+   "value": 262
+ },
+ {
+   "source": "Lugo",
+   "target": "Málaga2",
+   "value": 320
+ },
+ {
+   "source": "Madrid",
+   "target": "Málaga2",
+   "value": 5692
+ },
+ {
+   "source": "Málaga",
+   "target": "Málaga2",
+   "value": 195171
+ },
+ {
+   "source": "Murcia",
+   "target": "Málaga2",
+   "value": 929
+ },
+ {
+   "source": "Navarra",
+   "target": "Málaga2",
+   "value": 361
+ },
+ {
+   "source": "Orense/Ourense",
+   "target": "Málaga2",
+   "value": 467
+ },
+ {
+   "source": "Asturias",
+   "target": "Málaga2",
+   "value": 983
+ },
+ {
+   "source": "Palencia",
+   "target": "Málaga2",
+   "value": 459
+ },
+ {
+   "source": "Las Palmas",
+   "target": "Málaga2",
+   "value": 272
+ },
+ {
+   "source": "Pontevedra",
+   "target": "Málaga2",
+   "value": 579
+ },
+ {
+   "source": "Salamanca",
+   "target": "Málaga2",
+   "value": 1002
+ },
+ {
+   "source": "Santa Cruz de Tenerife",
+   "target": "Málaga2",
+   "value": 231
+ },
+ {
+   "source": "Cantabria",
+   "target": "Málaga2",
+   "value": 536
+ },
+ {
+   "source": "Segovia",
+   "target": "Málaga2",
+   "value": 367
+ },
+ {
+   "source": "Sevilla",
+   "target": "Málaga2",
+   "value": 6641
+ },
+ {
+   "source": "Soria",
+   "target": "Málaga2",
+   "value": 243
+ },
+ {
+   "source": "Tarragona",
+   "target": "Málaga2",
+   "value": 162
+ },
+ {
+   "source": "Teruel",
+   "target": "Málaga2",
+   "value": 149
+ },
+ {
+   "source": "Toledo",
+   "target": "Málaga2",
+   "value": 800
+ },
+ {
+   "source": "Valencia/València",
+   "target": "Málaga2",
+   "value": 842
+ },
+ {
+   "source": "Valladolid",
+   "target": "Málaga2",
+   "value": 765
+ },
+ {
+   "source": "Bizkaia",
+   "target": "Málaga2",
+   "value": 715
+ },
+ {
+   "source": "Zamora",
+   "target": "Málaga2",
+   "value": 619
+ },
+ {
+   "source": "Zaragoza",
+   "target": "Málaga2",
+   "value": 534
+ },
+ {
+   "source": "Ceuta",
+   "target": "Málaga2",
+   "value": 1937
+ },
+ {
+   "source": "Melilla",
+   "target": "Málaga2",
+   "value": 3650
+ },
+ {
+   "source": "Antiguos Territorios Españoles",
+   "target": "Málaga2",
+   "value": 91
+ },
+ {
+   "source": "Extranjeros",
+   "target": "Málaga2",
+   "value": 66706
+ }
+],
+"nodes":[
+ {
+   "name": "Álava/Araba"
+ },
+ {
+   "name": "Albacete"
+ },
+ {
+   "name": "Alicante/Alacant"
+ },
+ {
+   "name": "Almería"
+ },
+ {
+   "name": "Ávila"
+ },
+ {
+   "name": "Badajoz"
+ },
+ {
+   "name": "Islas Baleares/Illes Balears"
+ },
+ {
+   "name": "Barcelona"
+ },
+ {
+   "name": "Burgos"
+ },
+ {
+   "name": "Cáceres"
+ },
+ {
+   "name": "Cádiz"
+ },
+ {
+   "name": "Castellón/Castelló"
+ },
+ {
+   "name": "Ciudad Real"
+ },
+ {
+   "name": "Córdoba"
+ },
+ {
+   "name": "La Coruña"
+ },
+ {
+   "name": "Cuenca"
+ },
+ {
+   "name": "Girona"
+ },
+ {
+   "name": "Granada"
+ },
+ {
+   "name": "Guadalajara"
+ },
+ {
+   "name": "Gipuzkoa"
+ },
+ {
+   "name": "Huelva"
+ },
+ {
+   "name": "Huesca"
+ },
+ {
+   "name": "Jaén"
+ },
+ {
+   "name": "León"
+ },
+ {
+   "name": "Lérida-Lleida"
+ },
+ {
+   "name": "La Rioja"
+ },
+ {
+   "name": "Lugo"
+ },
+ {
+   "name": "Madrid"
+ },
+ {
+   "name": "Málaga2"
+ },
+ {
+   "name": "Málaga"
+ },
+ {
+   "name": "Murcia"
+ },
+ {
+   "name": "Navarra"
+ },
+ {
+   "name": "Orense/Ourense"
+ },
+ {
+   "name": "Asturias"
+ },
+ {
+   "name": "Palencia"
+ },
+ {
+   "name": "Las Palmas"
+ },
+ {
+   "name": "Pontevedra"
+ },
+ {
+   "name": "Salamanca"
+ },
+ {
+   "name": "Santa Cruz de Tenerife"
+ },
+ {
+   "name": "Cantabria"
+ },
+ {
+   "name": "Segovia"
+ },
+ {
+   "name": "Sevilla"
+ },
+ {
+   "name": "Soria"
+ },
+ {
+   "name": "Tarragona"
+ },
+ {
+   "name": "Teruel"
+ },
+ {
+   "name": "Toledo"
+ },
+ {
+   "name": "Valencia/València"
+ },
+ {
+   "name": "Valladolid"
+ },
+ {
+   "name": "Bizkaia"
+ },
+ {
+   "name": "Zamora"
+ },
+ {
+   "name": "Zaragoza"
+ },
+ {
+   "name": "Ceuta"
+ },
+ {
+   "name": "Melilla"
+ },
+ {
+   "name": "Antiguos Territorios Españoles"
+ },
+ {
+   "name": "Extranjeros"
+ }
+]  }
