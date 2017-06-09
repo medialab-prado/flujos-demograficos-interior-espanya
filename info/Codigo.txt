@@ -1,0 +1,5 @@
+mm<-read.fwf('micro_2016.csv',widths=(2,3,1,2,3,3,3,2,2));
+
+Bibliotecas\Documentos
+
+mm<-read.fwf('micro_2016.csv',widths=(2,3,1,2,3,3,3,2,2));
