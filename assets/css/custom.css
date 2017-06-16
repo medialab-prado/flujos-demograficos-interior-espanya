@@ -1,0 +1,73 @@
+.main-nav{
+	  background: url(../img/header-2.jpg) no-repeat center top;
+    background-image: url(../img/header-2.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    padding-top: 5px;
+    background-attachment: relative;
+    background-position: center center;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    overflow: hidden;
+}
+
+nav.main-nav {
+    font-family: 'Lato', sans-serif;
+    height:60px;
+    z-index:170;
+    margin:0 auto;
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    text-align: center;
+}
+
+.logo h2 {
+	float: left;
+	font-weight: 900;
+	color: white;
+	letter-spacing: 1px;
+	margin-top: 10px;
+  margin-left: 40px;
+}
+
+.menu {
+	float: right;
+	margin-top: 20px;
+}
+
+.menu a {
+	font-weight: normal;
+	color: white;
+	letter-spacing: 1px;
+	margin-right: 40px;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+
+.menu a:hover {
+	font-weight: 900;
+}
+
+.menu a.selected {
+	color: #FFD000;
+}
+
+.container.centered {
+	margin-top: 120px; 
+}
