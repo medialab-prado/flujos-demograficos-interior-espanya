@@ -285,8 +285,11 @@ input {
 
 
 #c {
-	padding-top: 50px;
+	margin-top:25px;
+	padding-top: 20px;
 	padding-bottom: 50px;
+	padding-left: 25px;
+	padding-right: 25px;
 	background: #E0E0E0;
 }
 /* CLIENTS */
@@ -331,6 +334,7 @@ input {
 
 /* FOOTER */
 #f {
+	margin-top:25px;
 	padding-top: 25px;
 	padding-bottom: 25px;
 	background-color: #111111;
