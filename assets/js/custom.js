@@ -12,17 +12,26 @@
     console.log(width)
 
 
-    $('button[data-province]').on('click', function(e){
+    var province = 'avila';
+    var year = 2015;
+    $('button').on('click', function(e){
       e.preventDefault();
 
-      var province = $(this).data('province');
-      $('button[data-province="'+province+'"]').removeClass('active');
+      if($(this).data('year') !== undefined) {
+        $('button[data-year]').removeClass('active');
+        year = $(this).html();
+      }
+      if($(this).data('province') !== undefined) {
+        $('button[data-province]').removeClass('active');
+        province = $(this).data('province');
+      }
+
       $(this).addClass('active');
-      var year = $(this).html();
 
       var newUrl = "assets/img/sankey/" + province + "/sankey_" + province + "_" + year + ".png";
-                    
-      $('img[data-province="'+province+'"]').attr('src', newUrl)
+      console.log(newUrl);
+
+      $('img[data-province]').attr('src', newUrl)
     });
 	});
 
