@@ -15,9 +15,9 @@
       $(this).addClass('active');
       var year = $(this).html();
 
-      var newUrl = "/assets/img/sankey_svg/svg_" + province + "/" + province + "_" + year + ".svg";
+      var newUrl = "assets/img/sankey_svg/svg_" + province + "/" + province + "_" + year + ".svg";
 
-      $('object[data-province="'+province+'"]').attr('data', newUrl);
+      $('iframe[data-province="'+province+'"]').attr('src', newUrl);
 
     });
 	});
