@@ -462,3 +462,40 @@ input {
 	margin-top: 30px;
 	letter-spacing: 1px;
 }
+
+button {
+    background-color: #2e2202; /* Green */
+    border-color: #E0E0E0;
+    color: #E0E0E0;
+    border-radius: 15px;
+    border-style: solid;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+button .hover {
+	border-radius: 15px;
+    border-style: solid;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: #2e2202; /* Green */
+    border-color: #E0E0E0;
+    color: #E0E0E0;
+}
+button .active {
+	border-radius: 15px;
+    border-style: solid;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: #FFD000; /* Green */
+    border-color: #2e2202;
+    color: #2e2202;
+}
