@@ -17,7 +17,7 @@
 
       var newUrl = "assets/img/sankey_svg/svg_" + province + "/" + province + "_" + year + ".svg";
 
-      $('iframe[data-province="'+province+'"]').attr('src', newUrl);
+      $('object[data-province="'+province+'"]').attr('data', newUrl);
 
     });
 	});
