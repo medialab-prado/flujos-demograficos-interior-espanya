@@ -12,7 +12,7 @@
 ################################################################# */
 
 /* Import fonts */
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
 
 @import url("prettyPhoto.css") screen;
 @import url("hoverex-all.css") screen;
@@ -475,7 +475,7 @@ button {
     display: inline-block;
     font-size: 16px;
 }
-button .hover {
+button:hover {
 	border-radius: 15px;
     border-style: solid;
     padding: 15px 32px;
@@ -487,7 +487,7 @@ button .hover {
     border-color: #E0E0E0;
     color: #E0E0E0;
 }
-button .active {
+button.active {
 	border-radius: 15px;
     border-style: solid;
     padding: 15px 32px;
