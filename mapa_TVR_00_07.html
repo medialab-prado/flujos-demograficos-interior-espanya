@@ -73,7 +73,7 @@
 			color: 'black',
 			dashArray: '1',
 			fillOpacity: 0.7,
-	        fillColor: getColor(feature.properties.TVR_08_15)
+	        fillColor: getColor(feature.properties.TVR_00_07)
 		};
 	}
 
@@ -89,7 +89,7 @@
 	}).addTo(map);
 	
 		var makePopUpContent = function(props) {
-      return '<div class="popup-content">' +'<H1>' + props.Provincia + '</H1><HR></HR><P>TVR 2008-2015: ' + props.TVR_08_15  + '</P>' 
+      return '<div class="popup-content">' +'<H1>' + props.Provincia + '</H1><HR></HR><P>TVR 2000-2007: ' + props.TVR_00_07  + '</P>' 
                                                                               
                                                                                     + '</div>' 
     }
