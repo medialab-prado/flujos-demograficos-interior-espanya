@@ -3,6 +3,7 @@
 
 
 
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,7 +26,7 @@
 		}
 	</style>
 	
-		<style>#map { width: 800px; height: 650px; }
+		<style>#map { width: 100%; height: 650px; }
 .info { padding: 6px 8px; font: 14px/16px Arial, Helvetica, sans-serif; background: white; background: rgba(255,255,255,0.8); box-shadow: 0 0 15px rgba(0,0,0,0.2); border-radius: 5px; } .info h4 { margin: 0 0 5px; color: #777; }
 .legend { text-align: left; line-height: 18px; color: #555; } .legend i { width: 20px; height: 18px; float: left; margin-right: 8px; opacity: 0.7; }</style>
 
@@ -48,7 +49,7 @@
                   '<tr><td colspan="2"><h3 style="margin: 0px; padding: 0px;">TASA</BR>VARIACIÓN</BR>RESIDENCIAL</BR>INTERNA</BR>(SÓLO ESPAÑOLES)</h3><hr/></td></tr><tr><td>' +
 				  '<div style="width: 20px; height: 10px; background: #21610B;" /></div></td><td><strong>[33.48 7.48]</strong></td></tr><tr><td>' +
 				  '<div style="width: 20px; height: 10px; background: #9ce8b2;" /></div></td><td><strong>[7.47 0.97]</strong></td></tr><tr><td>' +
-				  '<div style="width: 20px; height: 10px; background: #FAAC58;" /></div></td><td><strong>[0.96 -0.20]</strong></td></tr><tr><td>' +
+				  '<div style="width: 20px; height: 10px; background: #BCF5A9;" /></div></td><td><strong>[0.96 -0.20]</strong></td></tr><tr><td>' +
 				  '<div style="width: 20px; height: 10px; background: #ff0000;" /></td><td><strong>[-0.21 -21.16]</strong></td></tr><tr><td>' + 
 				  '<div style="width: 20px; height: 10px; background: #8A0808;" /></td><td><strong>[-21.17 -33.90]</strong></td></tr><tr><td>' ;
 */	
@@ -60,7 +61,7 @@
     if (periodo=='2000-2007'){
         colorea==feature.properties.TVR_00_07;
     } else if (periodo=='2008-2015') {
-          colorea==feature.properties.TVR_08_15;
+          colorea==feature.properties.TVR_00_07;
     };
     
   } }; */
@@ -112,7 +113,7 @@ console.log(statesData);
 function getColor(t) {
 		return  t <-21.16  ? '#8A0808' :
 				t <-0.20 ? '#ff0000' :
-				t <0.97 ? '#ffffff' :
+				t <0.97 ? '#BCF5A9' :
 				t <7.48   ? '#36dc00' :
 				t <33.49   ? '#21610B' :
 						
@@ -153,7 +154,7 @@ function getColor(t) {
                   '<tr><td colspan="2"><h3 style="margin: 0px; padding: 0px;">TASA</BR>VARIACIÓN</BR>RESIDENCIAL</BR>INTERNA</BR>(SÓLO ESPAÑOLES)</h3><hr/></td></tr><tr><td>' +
 				  '<div style="width: 20px; height: 10px; background: #21610B;" /></div></td><td><strong>[33.48 7.48]</strong></td></tr><tr><td>' +
 				  '<div style="width: 20px; height: 10px; background: #36dc00;" /></div></td><td><strong>[7.47 0.97]</strong></td></tr><tr><td>' +
-				  '<div style="width: 20px; height: 10px; background: #fff;" /></div></td><td><strong>[0.96 -0.20]</strong></td></tr><tr><td>' +
+				  '<div style="width: 20px; height: 10px; background: #BCF5A9;" /></div></td><td><strong>[0.96 -0.20]</strong></td></tr><tr><td>' +
 				  '<div style="width: 20px; height: 10px; background: #ff0000;" /></td><td><strong>[-0.21 -21.16]</strong></td></tr><tr><td>' + 
 				  '<div style="width: 20px; height: 10px; background: #8A0808;" /></td><td><strong>[-21.17 -33.90]</strong></td></tr><tr><td>' ;
   
