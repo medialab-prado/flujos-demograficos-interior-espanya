@@ -242,6 +242,7 @@ input {
 
 /* BROWN SECTION */
 #g {
+	margin-top:50px;
 	padding-top: 50px;
 	padding-bottom: 50px;
 	background: #2e2202;
@@ -465,37 +466,37 @@ input {
 
 button {
     background-color: #2e2202; /* Green */
-    border-color: #E0E0E0;
+    border-color: #2e2202;
     color: #E0E0E0;
-    border-radius: 15px;
+    border-radius: 30px;
     border-style: solid;
-    padding: 15px 32px;
+    padding: 10px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 15px;
 }
 button:hover {
-	border-radius: 15px;
+	border-radius: 30px;
     border-style: solid;
-    padding: 15px 32px;
+    padding: 10px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 15px;
     background-color: #2e2202; /* Green */
     border-color: #E0E0E0;
     color: #E0E0E0;
 }
 button.active {
-	border-radius: 15px;
+	border-radius: 30px;
     border-style: solid;
-    padding: 15px 32px;
+    padding: 10px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    background-color: #FFD000; /* Green */
-    border-color: #2e2202;
+    font-size: 15px;
+    background-color: #FFD000;
+    border-color: #FFD000;
     color: #2e2202;
 }
