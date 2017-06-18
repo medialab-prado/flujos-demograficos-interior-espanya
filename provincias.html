@@ -46,394 +46,140 @@
       <div class="container centered">
         <div class="row">
           <div class="col-md-8 col-md-offset-2">
-            <h1><b>El xxxxx% de los migrantes en xxxxx son xxxxx</b>.</h1>
-            <h3>xxxxxxxxxxxxxxxxxxx</h3>
-            <h5>AUTORES: Carlos Córcoles (promotor), Paloma Díaz, Nadia Hakim, Guillermo Villar</h5>
-            <h5>IMAGEN: xxxxxx<h5>
+            <h1><b>Ávila, Cuenca, Jaén, Segovia, Soria y Zamora son las provincias más afectadas por las migraciones</b>.</h1>
+            <h3>Las provincias afectadas eligen Madrid o una provincia satélite como destino.</h3>
+            <h5>AUTORES: Carlos Córcoles (promotor), Paloma Díaz, Guillermo Villar</h5>
           </div>
         </div><!--/row-->
       </div><!--/container-->
     </div>
     <!--H-->
 <div class="container ptb">
-      <div class="row">
-          <div style="text-indent: 20px;" align="justify"><p>Menos en el caso de Teruel, la mayoría de población de las provincias afectadas elige Madrid o una provincia satélite como destino. A excepción de Jaén, las cifras mínimas desde 2008 corresponden a los últimos años de la estadística, 2014 y 2015, de acuerdo con la Estadística de migraciones por el INE
-</p>
-          <br>
-        </div>
-        <div id="c">
-    <div class="container">
-          <div class="row centered">
+     
+          <p style="text-indent: 20px;" align="justify"> A excepción de Jaén, las cifras mínimas de personas que emigran de la provincia desde 2008 corresponden a los últimos años de la estadística, 2014 y 2015, de acuerdo con la Estadística de migraciones por el INE.</p></br>
+           <div class="row centered">
             <h3><b>Seleccione la provincia<b><h3>
-            <div class="col-sm-4">
-              <h4><b>Ávila</b></h4>
-              <h6>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</h6>
-            </div><!--/col-sm-4-->
-            <div class="col-sm-4">
-              <h4><b>Jaén</b></h4>
-             <h6>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</h6>
-            </div><!--/col-sm-4-->
-            <div class="col-sm-4">
-              <h4><b>Segovia</b></h4>
-              <h6>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</h6>
-            </div>
-            </div>
-            <div class="row centered"><!--/col-sm-4-->
-              <div class="col-sm-3">
-              <h4><b>Zamora</b></h4>
-              <h6>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</h6>
-            </div>
-              <div class="col-sm-3">
-              <h4><b>Soria</b></h4>
-             <h6>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</h6>
-            </div><!--/col-sm-4-->
-            <div class="col-sm-3">
-              <h4><b>Cuenca<b></h4>
-              <h6>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</h6>
-            </div>
-        <div class="col-sm-3">
-              <h4><b>Teruel</b></h4>
-              <h6>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</h6>
-          </div>
-          </div>
-        </div>
-      </div>
-            <h2 align="center"><b>La fuga de Ávila en datos</b></h2>
-            <br>
-            <div class="container" align=“justify”>
-<h3>- De media, desde 2008 se registran 3.187 emigraciones anuales.</h3>
-<h3>- Desde 2008, el mayor sangrado de población por migraciones se dio en 2011, con 4.316 personas menos, y el menor en 2015, ligeramente menor, con 4.004 registros.</h3>
-<h3>- En 2015, al extranjero se ha ido un 13,9% del total de los migrados</h3>
-<h3>- El 48,4% del total de emigraciones en 2015 son hacia Madrid, muy por encima de la siguiente candidata, Toledo, con un 4% de emigraciones. Después se sitúan Salamanca, Valladolid y Segovia</h3>
+           <button data-province="avila" class="active">Ávila</button>
+<button data-province="cuenca">Cuenca</button>
+<button data-province="jaen">Jaén</button>
+<button data-province="segovia">Segovia</button>
+<button data-province="soria">Soria</button>
+<button data-province="zamora">Zamora</button>
 <br>
-<button>Ávila</button>
-<button>Cuenca</button>
-<button>Jaén</button>
-<button>Segovia</button>
-<button>Soria</button>
-<button>Teruel</button>
-<button>Zamora</button>
-<br>
-<button data-province="avila">2008</button>
-<button data-province="avila">2009</button>
-<button data-province="avila">2010</button>
-<button data-province="avila">2011</button>
-<button data-province="avila">2012</button>
-<button data-province="avila">2013</button>
-<button data-province="avila">2014</button>
-<button data-province="avila" class="active">2015</button>
+<h3>Escoja el año<h3>
+<button data-year>2008</button>
+<button data-year>2009</button>
+<button data-year>2010</button>
+<button data-year>2011</button>
+<button data-year>2012</button>
+<button data-year>2013</button>
+<button data-year>2014</button>
+<button data-year class="active">2015</button>
+
 
 <!-- Imagen -->
-<img data-province="avila" src="assets/img/sankey/avila/sankey_avila_2015.png" class="img-responsive" alt="Flujos migratorios de Ávila de 2008 a 2015" align="centered">
+<img data-province src="assets/img/sankey/avila/sankey_avila_2015.png" class="img-responsive" alt="Flujos migratorios de Ávila de 2008 a 2015" align="centered">
+          </div>
+        </div>
+            
+
+
 <!--
 <object data-province="avila" type="image/svg+xml" data="assets/img/sankey_svg/svg_avila/avila_2015.svg">
   Tu navegador no soporta SVG
 </object>
 -->
-
-<h6>Fuente: Estadística de migraciones (INE)</h6>
+<h2 align="center"><b>Ávila, Soria, Zamora... Castilla y León y el éxodo</b></h2>
+            <br>
+            <div id="c" class="container" style="text-align:justify">
+<h4><b>- De media, desde 2008 se registran 4.159 emigraciones anuales de Segovia, 3.258 en Zamora, 3.187 en Ávila y 1.991 en Soria.</b></h4>
+<h4><b>- Desde 2008, el mayor sangrado de población por migraciones se dio en 2011, con 4.316 personas menos, y el menor en 2015, ligeramente menor, con 4.004 registros.</b></h4>
+<h4><b>-El porcentaje de migrados que se ha ido al extranjero ha sido el 23% en Segovia, el 21,6% en Soria, el 18,2% en Zamora y el 13,9% en Ávila. 
+<h4><b>- En 2015, al extranjero se ha ido un 13,9% del total de los migrados</b></h4>
+<h4><b>- Las cuatro afectadas escogen Madrid como primera provincia de destino en 2015. En el caso de Ávila, ha sido la meta de casi la mitad de los migrados en tal año.</b></h4>
 </div>
+</br>
 <br>
-            <div id="c">
-         <div class="col-sm-4" align="justify"><iframe src="https://datawrapper.dwcdn.net/fyman/5/" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="82%" height="300"></iframe>
-          <br>Texto 1</div>
-        <div class="container">
-          <div class="col-sm-4" align="justify"><iframe src="https://datawrapper.dwcdn.net/kAO7P/3/" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="82%" height="300"></iframe></iframe>
-            <br>Texto 2</div>
-          <div class="col-sm-4" align= "justify"><p><img src="assets/img/avila.jpg" class="img-responsive" alt="Pie de foto: loren ipsum dolor sit amet"><br>Texto 3</p></div>
-        </div>
-      </div>
-         <div class="container">
-  <div style="text-align:justify">
-      <h2>Título llamativo de Ávila</h2>
-      <br>
-<p style="text-indent: 20px;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+<div class="container" style="text-align:justify">
+<p style="text-indent: 20px;">Mónica de Juan es ingeniera y trabaja en una consultora de I+D en Madrid. Fue allí a estudiar en 1999 y aunque regresó a su Ávila natal al terminar los estudios, pronto se dio cuenta de que tenía que regresar a Madrid. “Vivía muy bien allí, cerca de mi familia, pero sólo había trabajo de funcionariado. Aguanté un año y me volví a Madrid”.</p>
 </div>
+</br>
+          <div class="container">
+          <div class="col-sm-6"><iframe src="http://datawrapper.dwcdn.net/fyman/7/" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="100%" height="400"></iframe></div>
+          <div class="col-sm-6" align="justify"><p>“Allí, el que se queda es porque oposita o porque tiene enchufe”, dice. “Si hubiera más iniciativas privadas, más gente se volvería después de estudiar”, asegura, “porque a la gente de Ávila le gusta vivir en su tierra”. Mónica asegura estar viendo, de hecho, cómo algunas mujeres de su quinta están regresando con motivo de la maternidad: “Sacrifican su futuro profesional para criar a los hijos cerca de los abuelos, pero saben que allí no hay trabajo”.</p></div></div>
+          <div class="container" style="text-align:justify">
+<div class="col-sm-6"><iframe src="http://datawrapper.dwcdn.net/kAO7P/7/" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="100%" height="400"></iframe></iframe></div>
+<div class="col-sm-6"><p><p>Ávila es la segunda provincia de España que más habitantes ha perdido entre 2008 y 2015. Se han ido 28 de cada mil.</p><p>La mayoría de sus emigrantes han recalado en la vecina Madrid. En esos años, la Estadística de Migraciones Internas recoge hasta 15.550 movimientos de la provicia abulense hacia la capital española. Pero, además, hasta el 13% de las salidas en el año 2015 ha sido hacia el extranjero.</p></div></div>
+<div class="container" style="text-align:justify">
+<p>Segovia, también limítrofe con Madrid, ha registrado 11.639 salidas hacia la gran metrópoli. ElPero hasta el 25% de las salidas del año</p><p>En el caso de Soria, también es crucial su cercanía con Zaragoza.
+</p><p>Pero el movimiento de la población castellanoleonesa hacia otras CCAA sólo representa una parte del problema migratorio de esta región.</p><p>Durante la crisis, ha crecido el movimiento de población hacia el extranjero. Por ejemplo, representa hasta el 23% de las salidas de Segovia y hasta el 13% de las de Ávila en el año 2015.</p><p>A ello se suma la sangría histórica e imparable sufrida por los pueblos más pequeños, en favor de núcleos más grandes, así como el consecuente envejecimiento de los habitantes que quedan en ellos.</p>
 </div>
-          <h2 align="center"><b>La fuga de Jaén en datos</b></h2></div>
+</br>
+          <div class="container">
+          <div class="col-sm-6"><iframe src="http://datawrapper.dwcdn.net/6b2Zj/9/" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="100%" height="400"></iframe></iframe></div>
+          <div class="col-sm-6" align="justify"><p>Al final, el éxodo y la dotación de servicios para los lugares prácticamente abandonados se han convertido en un problema de atención prioritaria para el Gobierno autonómico. Es “una prioridad estratégica”, dice la Agenda para la Población de Castilla y León 2010-2020, donde se exponen las medidas adoptadas para frenar el abandono.</p><p>Pero, a la luz de los datos, los sucesivos planes y estrategias adoptados desde las Administraciones no han surtido el efecto deseado.</p></div></div>
+          <div class="container" style="text-align:justify">
+<div class="col-sm-6"><iframe src="http://datawrapper.dwcdn.net/hYeBx/10/" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="100%" height="400"></iframe></iframe></div>
+<div class="col-sm-6"><p>La mayoría de provincias españolas que han perdido más población como producto de la emigración entre 2008 y 2015 pertenecen a Castilla y León.</p><p>Las competencias en materia de lucha contra el abandono poblacional y la distribución de los fondos dedicados a solucionar el problema se han diluido entre diversas consejerías y órganos a lo largo de los años. “Se pierde el rastro del dinero invertido”, observa el profesor de la Universidad de Salamanca Luis Alfonso Hortelano, investigador del éxodo castellanoleonés.</p></div></div>
+<div class="container" style="text-align:justify">
+<p>Desde hace un año, el problema demográfico está centralizado en la Consejería de Empleo, de manera que población y oportunidades de futuro quedan directamente vinculadas y ello es considerado como un punto de partida claro y definido, según fuentes del gobierno autonómico.
+</p></div>
+<br>
+<div class="container" style="text-align:justify">
+<div class="col-sm-6"><p>El consejero de Empleo es, de hecho, quien preside el Consejo de Política Demográfica, que periódicamente hace seguimiento de los grupos de trabajo creados en materia de jóvenes, familia, empleo y dinamización económica e inmigración.
+</p><p>Consultados por los avances de este Consejo y de los citados grupos de trabajo, la Consejería de Empleo no se ha pronunciado.</p><p>Le preguntamos al profesor Hortelano, geógrafo, sobre qué soluciones se barajan como posibles en el ámbito de la investigación de este fenómeno hasta ahora imparable.</p></div>
+<div class="col-sm-6"><iframe src="http://datawrapper.dwcdn.net/AvCoP/11/" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="100%" height="400"></iframe></iframe></div></div>
+<div class="container" style="text-align:justify">
+<div class="col-sm-6"><p>“Ésa es la pregunta del millón. Siempre lo ha sido”, contesta. Después, explica lo siguiente: “Siempre ha habido dos posturas: la de los pronatalistas, que considero que es un parcheo porque un chequebebé no tiene por qué animar a las mujeres a tener hijos, y la del impulso de la actividad económica porque, si no hay oportunidades de empleo, ¿quién va a querer quedarse o venir?”</p><p>Hortelano opina que “llevan 30 años perdiendo el tiempo intentando recuperar el medio rural perdido en vez de generar una industria vinculada a los recursos locales”.</p></div>
+<div class="col-sm-6"><iframe src="http://datawrapper.dwcdn.net/XitzI/10/" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="100%" height="400"></iframe></div></div>
+<div class="container" style="text-align:justify">
+<p>Por otro lado, estamos ante la comunidad más grande de España y la que más municipios tiene. Hasta mil de ellos tienen menos de 5.000 habitantes. El flujo de los más pequeños hacia los más grandes es imparable; la pérdida de población conlleva una pérdida de servicios, y la pérdida de servicios desincentiva quedarse. Es la pescadilla que se muerde la cola en el fenómeno de la despoblación rural.</p><p>En opinión de este experto, urge buscar un modelo de administración territorial que garantice buenos servicios a los núcleos pequeños de población. “Somos la región más grande y tenemos el mayor número de municipios. Algo hay que hacer, pero no se hace nada”, se lamenta. “Se ha hablado de áreas funcionales, de unidades básicas de servicios…”, dice, “pero ya tenemos un modelo histórico que funciona, que son las comarcas”.</p></div>
+
+
+          <h2 align="center"><b>Jaén, tercera provincia en abandono</b></h2></div>
           <br>
-          <div class="container" align=“justify”>
-<h3>- De media, desde 2008 se registran 9.845 emigraciones anuales</h3>
-<h3>- Desde 2008, la mayor fuga de población por migraciones se dio en 2012, con 11.517 personas menos, un número muy por encima del mínimo en estos años, 8818 emigraciones contadas en 2009</h3>
-<h3>- El 14,5% de las emigraciones en 2015 corresponden al extranjero</h3>
-<h3>- En 2015, el 11,8% de todas las emigraciones interiores y exteriores son hacia Madrid, muy cerca de la segunda y tercera opción, Málaga con un 10,3% y Granada con un 10,1%</h3>
-<br>
-<button data-province="jaen">2008</button>
-<button data-province="jaen">2009</button>
-<button data-province="jaen">2010</button>
-<button data-province="jaen">2011</button>
-<button data-province="jaen">2012</button>
-<button data-province="jaen">2013</button>
-<button data-province="jaen">2014</button>
-<button data-province="jaen" class="active">2015</button>
-
-<!-- Imagen -->
-<!--<img src="assets/img/sankey/avila/sankey_avila_2015.png" class="img-responsive" alt="Flujos migratorios de Ávila de 2008 a 2015" align="centered">-->
-
-<img data-province="jaen" src="assets/img/sankey/jaen/sankey_jaen_2015.png" class="img-responsive" alt="Flujos migratorios de Jaén de 2008 a 2015" align="centered">
-<h6>Fuente: Estadística de migraciones (INE)</h6>
+<div id="c" class="container" style="text-align:justify">
+  <h4><b>- De media, desde 2008 se registran 9.845 emigraciones anuales.</b></h4>
+<h4><b>- Desde 2008, la mayor fuga de población por migraciones se dio en 2012, con 11.517 personas menos, un número muy por encima del mínimo en estos años, 8818 emigraciones contadas en 2009.</b></h4>
+<h4><b>- El 14,5% de las emigraciones en 2015 corresponden al extranjero.</b></h4>
+<h4><b>- En 2015, el 11,8% de todas las emigraciones interiores y exteriores son hacia Madrid, muy cerca de la segunda y tercera opción, Málaga con un 10,3% y Granada con un 10,1%.</b></h4>
 </div>
 <br>
-          <div class="container">
-          <div class="col-sm-6"><iframe src="https://datawrapper.dwcdn.net/xSh8T/4/" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="82%" height="300"></iframe></div>
-          <div class="col-sm-6" align="justify"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p></div></div>
-          <div class="container">
-          <div class="col-sm-6"><iframe src="https://datawrapper.dwcdn.net/QEtef/4/" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="82%" height="400"></iframe></div>
-          <div class="col-sm-6" align="justify"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p></div></div>
-          <div id="c">
-  <div style="text-align:justify">
-      <h2>Título llamativo de Jaen</h2>
-      <br>
-      <img src="assets/img/jaen.jpg" class="img-responsive" alt="Pie de foto: loren ipsum dolor sit amet">
-      <h6>Pie de foto: lorem ipsum dolor sit amet</h6>
-      <br>
-<p style="text-indent: 20px;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+<div class="container" style="text-align:justify">
+<p style="text-indent: 20px;">La pérdida de población en Jaén es una de las más demoledoras. Desde 2012, cada año han desaparecido de su territorio 4000 residentes. La marcha de los españoles llevaba un ritmo constante desde muchos años antes, pero en 2012 también se suma el saldo negativo de extranjeros.</p>
 </div>
+</br>
+          <div class="container">
+          <div class="col-sm-6"><iframe src="http://datawrapper.dwcdn.net/xSh8T/6/" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="100%" height="400"></iframe></div>
+          <div class="col-sm-6" align="justify"><p>Jaén ya venía perdiendo población española en los años de bonanza económica previos a 2007: cerca de mil al año. Ya en 2007 desciende a pérdidas de 1.700. En 2010 pasa a un saldo negativo de -2.000 y mantiene ese vertiginoso ritmo hasta alcanzar un valor de -3.457 en 2015. Entre 2008 y 2015 se le han ido casi 18.000 españoles.</p><p>Sin embargo, en números absolutos de residentes no había pérdidas, pues antes de la crisis Jaén recibía a más de 2000 extranjeros al año.</p></div></div>
+          <div class="container" style="text-align:justify">
+<div class="col-sm-6"><iframe src="http://datawrapper.dwcdn.net/QEtef/7/" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="100%" height="400"></iframe></div>
+<div class="col-sm-6"><p>En 2007 supuso el cénit con la llegada de 4.735 inmigrantes de fuera. Después, comenzó a descender hasta llegar a números negativos que en 2012, por primera vez en muchos años, se fueron más extranjeros de los que llegaron: 1.618 se fueron a otras provincias de España. Ya en 2013, el saldo con el exterior también se hizo negativo; es decir, se marcharon fuera 500 extranjeros más de los que llegaron.</p><p>El su momento (2004) el saldo positivo de extranjeros detuvo la pérdida global de población que Jaén tenía. Pero desde 2012, a Jaén se le va mucha más población de la que le llega: sumando extranjeros y nacionales, desaparecen 4.000 residentes al año.</p></div></div>
+<div class="container" style="text-align:justify">
+<p>Jaén cerró 2016 siendo la provincia con más paro de España, según a Encuesta de Población Activa: un 33,2% . En total, 90.000 parados.</p><p>Es la provincia con menos renta por contribuyente de España, según la Agencia Tributaria. La renta bruta media es de 17.825 euros, mientras que en España llega a 24.602 euros.</p><p>Más de 300.000 jienenses viven fuera de Andalucía, según el Instituto de Estadística y Cartografía Andaluz. Son uno de cada cinco andaluces que viven fuera de su Comunidad.</p><p>Cataluña es la comunidad con mayor número de jienenenses (más de 100.000). Después va Madrid y después la Comunidad Valenciana.</p><p>La edad media de sus habitantes asciende a 42,4 años, casi año y medio por encima de la andaluza.</p>
 </div>
-          <h2 align="center"><b>La fuga de Segovia en datos</b></h2>
+         
+          <h2 align="center"><b>Cuenca estrenó 2017 con menos de 200.000 habitantes</b></h2>
           <br>
-          <div class="container" align=“justify”>
-<h3>- De media, desde 2008 se registran 4.159 emigraciones anuales</h3>
-<h3>- Desde 2008, la mayor fuga de población por migraciones se dio en 2009 con 4.579 personas y el menor en 2014 con 3.637 personas</h3>
-<h3>- En 2015, al extranjero fue un 23% del total de los migrantes en ese año</h3>
-<h3>- El 40% de las emigraciones interiores y exteriores detectadas en 2015 son a Madrid, lejos en cifras de la siguiente provincia, el 6,6% a Valladolid</h3>
-<br>
-<button data-province="segovia">2008</button>
-<button data-province="segovia">2009</button>
-<button data-province="segovia">2010</button>
-<button data-province="segovia">2011</button>
-<button data-province="segovia">2012</button>
-<button data-province="segovia">2013</button>
-<button data-province="segovia">2014</button>
-<button data-province="segovia" class="active">2015</button>
-
-<img data-province="segovia" src="assets/img/sankey/segovia/sankey_segovia_2015.png" class="img-responsive" alt="Flujos migratorios de Segovia de 2008 a 2015" align="centered">
-<h6>Fuente: Estadística de migraciones (INE)</h6>
+            <div id="c" class="container" style="text-align:justify">
+<h4><b>- De media, desde 2008 se registran 5.416 emigraciones anuales.</b></h4>
+<h4><b>- Desde 2008, el mayor sangrado de población por migraciones se dio en 2012, con 5.822 personas menos y el menor en 2014, con 4.992 registros.</b></h4>
+<h4><b>- Al extranjero corresponden el 18,2% de las emigraciones en 2015.</b></h4>
+<h4><b>- En 2015, el 25,8% del total de emigraciones fueron hacia Madrid, el 14,2% a Valencia y el 7,3% a Albacete.</b></h4>
 </div>
 <br>
-          <div class="container">
-          <div class="col-sm-6"><iframe src="https://datawrapper.dwcdn.net/00Yjc/8/" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="82%" height="300"></iframe></div>
-          <div class="col-sm-6" align="justify"><p>Texto + gráficos: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p></div></div>
-          <div class="container">
-<div class="col-sm-6">(FALTA GRÁFICO DE SEGOVIA)</div>
-
-<div class="col-sm-6" align="justify"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p></div></div>
- <div id="c">
-  <div style="text-align:justify">
-      <h2>Título llamativo de Segovia</h2>
-      <br>
-      <img src="assets/img/segovia.jpg" class="img-responsive" alt="Pie de foto: loren ipsum dolor sit amet">
-      <h6>Pie de foto: lorem ipsum dolor sit amet</h6>
-      <br>
-<p style="text-indent: 20px;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-</div>
-</div>
-          <h2 align="center"><b>La fuga de Zamora en datos</b></h2>
-          <br>
-          <div class="container" align=“justify”>
-<h3>De media, desde 2008 se registran 3.258 migraciones anuales.</h3>
-<h3>Desde 2008, el mayor sangrado corresponde a ese mismo año, con 3.483 emigraciones, y el menor es de 2014, con 3.058 registros.</h3>
-<h3>Al extranjero se le adjudica el 18,2% de todas las emigraciones en 2015</h3>
-<h3>En 2015, a Madrid en este caso se va el 20,2% de emigraciones tanto interiores como exteriores y la siguiente provincia escogida es Valladolid, con un 8,4%</h3>
-
-<button data-province="zamora">2008</button>
-<button data-province="zamora">2009</button>
-<button data-province="zamora">2010</button>
-<button data-province="zamora">2011</button>
-<button data-province="zamora">2012</button>
-<button data-province="zamora">2013</button>
-<button data-province="zamora">2014</button>
-<button data-province="zamora" class="active">2015</button>
-
-<img data-province="zamora" src="assets/img/sankey/zamora/sankey_zamora_2015.png" class="img-responsive" alt="Flujos migratorios de Zamora de 2008 a 2015" align="centered">
-
-<h6>Fuente: Estadística de migraciones (INE)</h6>
-</div>
-<br>
-          <div class="container">
-          <div class="col-sm-6"><iframe src="https://datawrapper.dwcdn.net/AvCoP/8/" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="82%" height="300"></iframe></div>
-          <div class="col-sm-6" align="justify"><p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p></div></div>
-          <div class="container">
-<div class="col-sm-6"><iframe src="https://datawrapper.dwcdn.net/XitzI/7/" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="82%" height="300"></iframe></div>
-<div class="col-sm-6" align="justify"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p></div></div>
- <div id="c">
-  <div style="text-align:justify">
-      <h2>Título llamativo de Zamora</h2>
-      <br>
-      <img src="assets/img/zamora.jpg" class="img-responsive" alt="Pie de foto: loren ipsum dolor sit amet">
-      <h6>Pie de foto: lorem ipsum dolor sit amet</h6>
-      <br>
-<p style="text-indent: 20px;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-</div>
-</div>
-          <h2 align="center"><b>La fuga de Soria en datos</b></h2>
-          <br>
-          <div class="container" align=“justify”>
-<h3>- De media, desde 2008 se registran 1.991 migraciones anuales<h3>
-<h3>- Desde 2008, la mayor fuga de población por migraciones se dio en ese mismo año, con 2.179 halladas, mientras que la menor corresponde a 2015, con 1.884 registros.</h3>
-<h3>- El 21,6% de emigrantes en 2015 fueron al extranjero</h3>
-<h3>- En 2015, el 17,8% del conjunto de emigraciones interiores y exteriores son hacia Madrid y el 11,8% van directas a Zaragoza</h3>
-<br>
-<button data-province="soria">2008</button>
-<button data-province="soria">2009</button>
-<button data-province="soria">2010</button>
-<button data-province="soria">2011</button>
-<button data-province="soria">2012</button>
-<button data-province="soria">2013</button>
-<button data-province="soria">2014</button>
-<button data-province="soria" class="active">2015</button>
-
-<img data-province="soria" src="assets/img/sankey/soria/sankey_soria_2015.png" class="img-responsive" alt="Flujos migratorios de Soria de 2008 a 2015" align="centered">
-<h6>Fuente: Estadística de migraciones (INE)</h6>
-</div>
-<br>
-          <div class="container">
-          <div class="col-sm-6"><iframe src="https://datawrapper.dwcdn.net/6b2Zj/5/" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="82%" height="300"></iframe></div>
-          <div class="col-sm-6" align="justify"><p>Texto + gráficos: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p></div></div>
-          <div class="container">
-<div class="col-sm-6"><iframe src="https://datawrapper.dwcdn.net/hYeBx/5/" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="82%" height="300"></iframe></div>
-<div class="col-sm-6" align="justify"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p></div></div>
- <div id="c">
-  <div style="text-align:justify">
-      <h2>Título llamativo de Soria</h2>
-      <br>
-      <img src="assets/img/soria.jpg" class="img-responsive" alt="Pie de foto: loren ipsum dolor sit amet">
-      <h6>Pie de foto: lorem ipsum dolor sit amet</h6>
-      <br>
-<p style="text-indent: 20px;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-</div>
-</div>
-          <h2 align="center"><b>La fuga de Cuenca en datos</b></h2>
-          <br>
-          <div class="container" align=“justify”>
-<h3>- De media, desde 2008 se registran 5.416 emigraciones anuales.<h3>
-<h3>- Desde 2008, el mayor sangrado de población por migraciones se dio en 2012, con 5.822 personas menos y el menor en 2014, con 4.992 registros.</h3>
-<h3>- Al extranjero corresponden el 18,2% de las emigraciones en 2015</h3>
-<h3>- En 2015, el 25,8% del total de emigraciones fueron hacia Madrid, el 14,2% a Valencia y el 7,3% a Albacete</h3>
-<br>
-<button data-province="cuenca">2008</button>
-<button data-province="cuenca">2009</button>
-<button data-province="cuenca">2010</button>
-<button data-province="cuenca">2011</button>
-<button data-province="cuenca">2012</button>
-<button data-province="cuenca">2013</button>
-<button data-province="cuenca">2014</button>
-<button data-province="cuenca" class="active">2015</button>
-
-<img data-province="cuenca" src="assets/img/sankey/cuenca/sankey_cuenca_2015.png" class="img-responsive" alt="Flujos migratorios de Cuenca de 2008 a 2015" align="centered">
-<h6>Fuente: Estadística de migraciones (INE)</h6>
-</div>
-<br>
-          <div class="container">
-          <div class="col-sm-6"><iframe src="https://datawrapper.dwcdn.net/hz7Co/6/" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="82%" height="300"></iframe></div>
-          <div class="col-sm-6" align="justify"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p></div></div>
-          <div class="container">
-<div class="col-sm-6"><iframe src="https://datawrapper.dwcdn.net/XK4eF/3/" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="82%" height="300"></iframe></div>
-<div class="col-sm-6" align="justify"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p></div></div>
-<div id="c">
-  <div style="text-align:justify">
-      <h2>Cuenca estrenó 2017 con menos de 200.000 habitantes</h2>
-      <br>
-      <img src="assets/img/benjamin_prieto_cuenca.jpg" class="img-responsive" alt="Benjamín Prieto">
-      <h6>Benjamin Prieto, presidente de la Diputación de Cuenca</h6>
-      <br>
+<div class="container" style="text-align:justify">
 <p style="text-indent: 20px;">Haber bajado de los 200.000, tras años en caída libre, es “un drama”, en palabras del presidente de la Diputación, Benjamín Prado. No sólo por la caída de la financiación estatal por habitante, sino porque “Cuenca se queda sin jóvenes”</p>
-
-<p>Conoce la provincia como la palma de su mano. Desde los 8 años repartía corderos con su padre. Ha sido diputado provincial y es alcalde de Fuentelespino de Haro, un pueblo de 300 habitantes, desde 1998. Ha visto irse a la gente, cerrar fábricas y negocios.</p>
-
-<p>“Lo que se pierde en un día ya no se recupera”, lamenta. “Las generaciones se van agotando”. Ya, “ni los mayores vuelven”.  “Ni con crisis ni sin crisis”, apostilla.</p>
-
-<p>Si no fuera por el sistema sanitario autonómico, Prado está seguro de que muchos conquenses, sobre todo jubilados, pasarían temporadas en su lugar de origen aunque luego pasaran otras temporadas en Madrid o en Levante. Pero “el sistema autonómico que tenemos”, observa, “no da seguridad a la gente para tener una movilidad que solucionaría en parte el problema de la despoblación, no sólo de Cuenca, sino de muchas otras provincias de España”.</p>
-
-<p>En sus seis años al frente de la Diputación, todo el trabajo de Benjamín Prado está dirigido, de manera “obsesiva”, a frenar el éxodo. Llevó una ponencia al Senado en 2014. Ha puesto en marcha una lanzadera de empresas para retener y atraer talento, y ha puesto numerosas iniciativas en marcha para potenciar el atractivo turístico de Cuenca, que cuenta con un potencial prácticamente único: una capital Patrimonio de la Humanidad; yacimientos del Jurásico; una arquitectura romana “incomparable” (y no sólo en Segóbriga); el mosaico romano de Noheda, el más grande conocido, con un valor incalculable y pendiente de que pueda ser abierto al público; estaciones de ferrocarril del siglo XIX, que son “joyas arquitectónicas” y que van a ser recuperadas junto con el trazado ferroviario (uno de los primeros de España), un paisaje privilegiado…</p>
 </div>
-</div>
-
-          <h2 align="center"><b>La fuga de Teruel en datos</b></h2>
-          <br>
-          <div class="container" align=“justify”>
-<h3>- De media, desde 2008 se registran 3.745 migraciones anuales</h3>
-<h3>- Desde 2008, la mayor fuga de población por migraciones se dio en 2009, con 4.125 emigraciones registradas, y a 2015 corresponde el número menor, 3.205 registros.</h3>
-<h3>- En 2015, al extranjero corresponde el 25,5% de todas las migraciones</h3>
-<h3>- El caso de Teruel es distinto. En 2015 Madrid no lidera en este ranking, mientras que destaca Zaragoza con un 23,3% y Valencia con un 10,3% del total de emigraciones interiores y exteriores</h3>
-<br>
-<button data-province="teruel">2008</button>
-<button data-province="teruel">2009</button>
-<button data-province="teruel">2010</button>
-<button data-province="teruel">2011</button>
-<button data-province="teruel">2012</button>
-<button data-province="teruel">2013</button>
-<button data-province="teruel">2014</button>
-<button data-province="teruel" class="active">2015</button>
-
-<img data-province="teruel" src="assets/img/sankey/teruel/sankey_teruel_2015.png" class="img-responsive" alt="Flujos migratorios de Teruel de 2008 a 2015" align="centered">
-<h6>Fuente: Estadística de migraciones (INE)</h6>
-</div>
-<br>
+</br>
           <div class="container">
-          <div class="col-sm-6"><iframe src="https://datawrapper.dwcdn.net/pcwg6/10/" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="82%" height="300"></iframe></div>
-          <div class="col-sm-6" align="justify"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p></div></div>
-          <div class="container">
-<div class="col-sm-6"><iframe src="https://datawrapper.dwcdn.net/CFJVP/4/" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="82%" height="300"></iframe></div>
-<div class="col-sm-6" align="justify"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p></div></div>
- <div id="c">
-  <div style="text-align:justify">
-      <h2>Título llamativo de Teruel</h2>
-      <br>
-      <img src="assets/img/teruel.jpg" class="img-responsive" alt="Pie de foto: loren ipsum dolor sit amet">
-      <h6>Pie de foto: lorem ipsum dolor sit amet</h6>
-      <br>
-<p style="text-indent: 20px;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-</div>
+          <div class="col-sm-6"><iframe src="http://datawrapper.dwcdn.net/hz7Co/8/" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="100%" height="400"></iframe></div>
+          <div class="col-sm-6" align="justify"><p>Conoce la provincia como la palma de su mano. Desde los 8 años repartía corderos con su padre. Ha sido diputado provincial y es alcalde de Fuentelespino de Haro, un pueblo de 300 habitantes, desde 1998. Ha visto irse a la gente, cerrar fábricas y negocios.</p><p>“Lo que se pierde en un día ya no se recupera”, lamenta. “Las generaciones se van agotando”. Ya, “ni los mayores vuelven”.  “Ni con crisis ni sin crisis”, apostilla.</p></div></div>
+          <div class="container" style="text-align:justify">
+<div class="col-sm-6"><iframe src="http://datawrapper.dwcdn.net/XK4eF/6/" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="100%" height="400"></iframe></div>
+<div class="col-sm-6"><p>Si no fuera por el sistema sanitario autonómico, Prado está seguro de que muchos conquenses, sobre todo jubilados, pasarían temporadas en su lugar de origen aunque luego pasaran otras temporadas en Madrid o en Levante. Pero “el sistema autonómico que tenemos”, observa, “no da seguridad a la gente para tener una movilidad que solucionaría en parte el problema de la despoblación, no sólo de Cuenca, sino de muchas otras provincias de España”.</p></div></div>
+<div class="container" style="text-align:justify">
+<p>En sus seis años al frente de la Diputación, todo el trabajo de Benjamín Prado está dirigido, de manera “obsesiva”, a frenar el éxodo. Llevó una ponencia al Senado en 2014. Ha puesto en marcha una lanzadera de empresas para retener y atraer talento, y ha puesto numerosas iniciativas en marcha para potenciar el atractivo turístico de Cuenca, que cuenta con un potencial prácticamente único: una capital Patrimonio de la Humanidad; yacimientos del Jurásico; una arquitectura romana “incomparable” (y no sólo en Segóbriga); el mosaico romano de Noheda, el más grande conocido, con un valor incalcuxlable y pendiente de que pueda ser abierto al público; estaciones de ferrocarril del siglo XIX, que son “joyas arquitectónicas” y que van a ser recuperadas junto con el trazado ferroviario (uno de los primeros de España), un paisaje privilegiado…</p>
 </div>
           </div>
       </div><!--/row-->
