@@ -14,7 +14,7 @@
 
     var province = 'avila';
     var year = 2015;
-    $('button').on('click', function(e){
+    $('button[data-year], button[data-province]').on('click', function(e){
       e.preventDefault();
 
       if($(this).data('year') !== undefined) {
